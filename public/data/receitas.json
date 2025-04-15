@@ -1,0 +1,259 @@
+[
+  {
+    "id": "salada-caprese",
+    "nome": "Salada Caprese",
+    "categoria": "Entrada",
+    "ingredientes": [
+      "Tomates cereja",
+      "Muçarela de búfala",
+      "Folhas de manjericão",
+      "Azeite de oliva",
+      "Sal e pimenta a gosto"
+    ],
+    "preparo": "Monte camadas de tomate, muçarela e manjericão. Regue com azeite e tempere.",
+    "imagem": "/imagens/salada_caprese.jpg"
+  },
+  {
+    "id": "sopa-abobora",
+    "nome": "Sopa de Abóbora",
+    "categoria": "Entrada",
+    "ingredientes": [
+      "500g de abóbora picada",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "1 litro de caldo de legumes",
+      "Sal e pimenta a gosto"
+    ],
+    "preparo": "Refogue cebola e alho, adicione abóbora e caldo. Cozinhe até amolecer e bata no liquidificador.",
+    "imagem": "/imagens/sopa_abobora.jpg"
+  },
+  {
+    "id": "bruschetta-tomate",
+    "nome": "Bruschetta de Tomate",
+    "categoria": "Entrada",
+    "ingredientes": [
+      "Pão italiano",
+      "Tomates picados",
+      "Alho amassado",
+      "Manjericão fresco",
+      "Azeite de oliva"
+    ],
+    "preparo": "Toste o pão, esfregue alho, cubra com tomates temperados e manjericão. Finalize com azeite.",
+    "imagem": "/imagens/bruschetta.jpg"
+  },
+  {
+    "id": "salada-grega",
+    "nome": "Salada Grega",
+    "categoria": "Entrada",
+    "ingredientes": ["Tomate", "Pepino", "Azeitona", "Cebola roxa", "Queijo feta"],
+    "preparo": "Misture todos os ingredientes e tempere a gosto.",
+    "imagem": "/imagens/salada_grega.jpg"
+  },
+  {
+    "id": "ceviche-classico",
+    "nome": "Ceviche Clássico",
+    "categoria": "Entrada",
+    "ingredientes": ["300g de peixe branco", "Suco de 2 limões", "Cebola roxa fatiada", "Coentro fresco", "Sal e pimenta"],
+    "preparo": "Corte o peixe em cubos, adicione suco de limão, cebola e coentro. Tempere e deixe marinar por 10 minutos.",
+    "imagem": "/imagens/ceviche.jpg"
+  },
+  {
+    "id": "rolinho-abobrinha",
+    "nome": "Rolinho de Abobrinha com Ricota",
+    "categoria": "Entrada",
+    "ingredientes": ["Abobrinhas em fatias finas", "Ricota temperada", "Azeite de oliva", "Sal e pimenta"],
+    "preparo": "Grelhe as fatias de abobrinha, recheie com ricota e enrole. Regue com azeite.",
+    "imagem": "/imagens/rolinho_abobrinha.jpg"
+  },
+  {
+    "id": "frango-grelhado",
+    "nome": "Frango Grelhado com Legumes",
+    "categoria": "Prato Principal",
+    "ingredientes": [
+      "2 filés de peito de frango",
+      "Abobrinha, cenoura e brócolis",
+      "Azeite, alho, sal e pimenta"
+    ],
+    "preparo": "Tempere o frango e grelhe. Cozinhe os legumes no vapor e sirva juntos.",
+    "imagem": "/imagens/frango_grelhado.jpg"
+  },
+  {
+    "id": "risoto-funghi",
+    "nome": "Risoto de Funghi",
+    "categoria": "Prato Principal",
+    "ingredientes": [
+      "1 xícara de arroz arbório",
+      "100g de funghi seco",
+      "1/2 cebola picada",
+      "1/2 xícara de vinho branco",
+      "Caldo de legumes e parmesão"
+    ],
+    "preparo": "Refogue a cebola, adicione o arroz e o vinho. Acrescente funghi e o caldo aos poucos até cozinhar.",
+    "imagem": "/imagens/risoto_funghi.jpg"
+  },
+  {
+    "id": "espaguete-bolonhesa",
+    "nome": "Espaguete à Bolonhesa",
+    "categoria": "Prato Principal",
+    "ingredientes": [
+      "500g de espaguete",
+      "300g de carne moída",
+      "Molho de tomate",
+      "Alho, cebola, sal e pimenta"
+    ],
+    "preparo": "Cozinhe o macarrão. Refogue a carne com temperos e adicione o molho. Misture e sirva.",
+    "imagem": "/imagens/espaguete_bolonhesa.jpg"
+  },
+  {
+    "id": "lasanha-vegetariana",
+    "nome": "Lasanha Vegetariana",
+    "categoria": "Prato Principal",
+    "ingredientes": ["Massa para lasanha", "Molho de tomate", "Legumes variados", "Queijo muçarela", "Molho branco"],
+    "preparo": "Intercale camadas de massa, legumes, molhos e queijo. Asse até gratinar.",
+    "imagem": "/imagens/lasanha_vegetariana.jpg"
+  },
+  {
+    "id": "tilapia-assada",
+    "nome": "Tilápia Assada com Ervas",
+    "categoria": "Prato Principal",
+    "ingredientes": ["Filés de tilápia", "Limão", "Ervas frescas", "Azeite, sal e pimenta"],
+    "preparo": "Tempere os filés com limão e ervas. Asse por 20 minutos.",
+    "imagem": "/imagens/tilapia_assada.jpg"
+  },
+  {
+    "id": "panqueca-carne",
+    "nome": "Panqueca Recheada com Carne",
+    "categoria": "Prato Principal",
+    "ingredientes": ["Massa de panqueca", "Carne moída refogada", "Molho de tomate", "Queijo ralado"],
+    "preparo": "Recheie as panquecas com carne, cubra com molho e queijo. Leve ao forno para gratinar.",
+    "imagem": "/imagens/panqueca_carne.jpg"
+  },
+  {
+    "id": "mousse-chocolate",
+    "nome": "Mousse de Chocolate",
+    "categoria": "Sobremesas",
+    "ingredientes": [
+      "200g de chocolate meio amargo",
+      "3 ovos",
+      "3 colheres de sopa de açúcar",
+      "1 lata de creme de leite"
+    ],
+    "preparo": "Derreta o chocolate, misture com as gemas e creme de leite. Incorpore as claras em neve e leve à geladeira.",
+    "imagem": "/imagens/mousse_chocolate.jpg"
+  },
+  {
+    "id": "bolo-cenoura",
+    "nome": "Bolo de Cenoura com Cobertura de Chocolate",
+    "categoria": "Sobremesas",
+    "ingredientes": [
+      "3 cenouras",
+      "3 ovos",
+      "1 xícara de óleo",
+      "2 xícaras de açúcar",
+      "2 e 1/2 xícaras de farinha de trigo",
+      "Chocolate em pó e leite condensado para cobertura"
+    ],
+    "preparo": "Bata os ingredientes no liquidificador, asse e cubra com chocolate derretido.",
+    "imagem": "/imagens/bolo_cenoura.jpg"
+  },
+  {
+    "id": "pudim-leite",
+    "nome": "Pudim de Leite Condensado",
+    "categoria": "Sobremesas",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "A mesma medida de leite",
+      "3 ovos",
+      "Açúcar para calda"
+    ],
+    "preparo": "Bata os ingredientes, despeje na forma caramelizada e asse em banho-maria.",
+    "imagem": "/imagens/pudim_leite.jpg"
+  },
+  {
+    "id": "mousse-maracuja",
+    "nome": "Mousse de Maracujá",
+    "categoria": "Sobremesas",
+    "ingredientes": ["Leite condensado", "Creme de leite", "Suco de maracujá concentrado"],
+    "preparo": "Misture tudo no liquidificador e leve à geladeira por 4 horas.",
+    "imagem": "/imagens/mousse_maracuja.jpg"
+  },
+  {
+    "id": "brownie",
+    "nome": "Brownie de Chocolate",
+    "categoria": "Sobremesas",
+    "ingredientes": ["Chocolate meio amargo", "Manteiga", "Açúcar", "Ovos", "Farinha de trigo"],
+    "preparo": "Derreta o chocolate com a manteiga, misture os demais ingredientes e asse por 25 minutos.",
+    "imagem": "/imagens/brownie.jpg"
+  },
+  {
+    "id": "frutas-grelhadas",
+    "nome": "Frutas Grelhadas com Mel",
+    "categoria": "Sobremesas",
+    "ingredientes": ["Banana", "Abacaxi", "Maçã", "Mel", "Canela"],
+    "preparo": "Grelhe as frutas, regue com mel e polvilhe canela.",
+    "imagem": "/imagens/frutas_grelhadas.jpg"
+  },
+  {
+    "id": "suco-abacaxi-hortela",
+    "nome": "Suco de Abacaxi com Hortelã",
+    "categoria": "Bebidas",
+    "ingredientes": [
+      "2 fatias de abacaxi",
+      "Folhas de hortelã",
+      "1 copo de água gelada",
+      "Gelo e açúcar a gosto"
+    ],
+    "preparo": "Bata tudo no liquidificador e sirva gelado.",
+    "imagem": "/imagens/suco_abacaxi.jpg"
+  },
+  {
+    "id": "cha-gengibre",
+    "nome": "Chá de Gengibre com Limão",
+    "categoria": "Bebidas",
+    "ingredientes": [
+      "Rodelas de gengibre",
+      "Suco de 1 limão",
+      "1 colher de mel",
+      "Água quente"
+    ],
+    "preparo": "Ferva o gengibre na água, desligue e adicione limão e mel. Sirva quente.",
+    "imagem": "/imagens/cha_gengibre.jpg"
+  },
+  {
+    "id": "vitamina-banana",
+    "nome": "Vitamina de Banana",
+    "categoria": "Bebidas",
+    "ingredientes": [
+      "1 banana",
+      "1 copo de leite",
+      "1 colher de aveia",
+      "Mel a gosto"
+    ],
+    "preparo": "Bata tudo no liquidificador e sirva.",
+    "imagem": "/imagens/vitamina_banana.jpg"
+  },
+  {
+    "id": "smoothie-verde",
+    "nome": "Smoothie Verde Detox",
+    "categoria": "Bebidas",
+    "ingredientes": ["Couve", "Maçã verde", "Limão", "Água de coco", "Gelo"],
+    "preparo": "Bata todos os ingredientes e sirva gelado.",
+    "imagem": "/imagens/smoothie_verde.jpg"
+  },
+  {
+    "id": "cafe-gelado",
+    "nome": "Café Gelado com Leite",
+    "categoria": "Bebidas",
+    "ingredientes": ["Café coado", "Leite gelado", "Açúcar ou adoçante", "Gelo"],
+    "preparo": "Misture o café com leite e açúcar. Sirva com bastante gelo.",
+    "imagem": "/imagens/cafe_gelado.jpg"
+  },
+  {
+    "id": "suco-melancia",
+    "nome": "Suco de Melancia Refrescante",
+    "categoria": "Bebidas",
+    "ingredientes": ["Melancia", "Hortelã", "Gelo"],
+    "preparo": "Bata a melancia com hortelã e sirva com gelo.",
+    "imagem": "/imagens/suco_melancia.jpg"
+  }
+]
