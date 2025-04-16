@@ -40,11 +40,11 @@ export default function ReceitaPage() {
   if (!receita) return <p className="p-4">Receita não encontrada.</p>
 
   return (
-    <main className="max-w-3xl mx-auto p-6 space-y-6">
+    <main className="max-w-3xl mx-auto p-6 space-y-6">  
       {/* Link para voltar à página inicial */}
       <Link
         href="/"
-        className="inline-block text-blue-600 hover:underline text-sm mb-4"
+        className="inline-block text-green-500 hover:underline text-sm mb-4"
       >
         ← Voltar para a Home
       </Link>

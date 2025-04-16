@@ -2,7 +2,7 @@ import './globals.css'
 import { ThemeProvider } from '@/components/theme-provider'
 import { ModeToggle } from '@/components/toggle'
 import { Header } from '@/components/Header'
-import { Footer } from '@/components/Footer' // 👈 Importa o Footer
+import { Footer } from '@/components/Footer' 
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </ThemeProvider>
         </main>
 
-        <Footer /> {/* Usa o Footer aqui */}
+        <Footer /> 
         
       </body>
     </html>
