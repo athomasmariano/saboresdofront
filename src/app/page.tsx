@@ -36,13 +36,13 @@ export default function Home() {
 
   return (
     <main className="p-4">
-      <h1 className="text-2xl font-bold mb-4 text-black">👩‍🍳 Receitas</h1>
+      <h1 className="text-2xl font-bold mb-4">👩‍🍳 Receitas</h1>
 
       {/* Botões para filtrar receitas por categoria */}
-      <div className="mb-6 flex gap-2 flex-wrap text-red-500">
+      <div className="mb-6 flex gap-2 flex-wrap text-green-500">
         <button
           onClick={() => setCategoriaSelecionada(null)}
-          className={`px-4 py-1 rounded-full border ${categoriaSelecionada === null ? 'bg-red-500 text-white' : ''}`}
+          className={`px-4 py-1 rounded-full border ${categoriaSelecionada === null ? 'bg-green-500 text-white' : ''}`}
         >
           Todas
         </button>
@@ -50,7 +50,7 @@ export default function Home() {
           <button
             key={cat}
             onClick={() => setCategoriaSelecionada(cat)}
-            className={`px-4 py-1 rounded-full border ${categoriaSelecionada === cat ? 'bg-red-500 text-white' : ''}`}
+            className={`px-4 py-1 rounded-full border ${categoriaSelecionada === cat ? 'bg-green-500 text-white' : ''}`}
           >
             {cat}
           </button>
@@ -72,8 +72,8 @@ export default function Home() {
               height={200}
               className="object-cover w-full h-48 rounded mb-2"
             />
-            <h2 className="text-lg font-semibold text-black">{receita.nome}</h2>
-            <p className="text-sm text-gray-600">{receita.categoria}</p>
+            <h2 className="text-lg font-semibold">{receita.nome}</h2>
+            <p className="text-sm">{receita.categoria}</p>
           </Link>
         ))}
       </div>

@@ -11,7 +11,7 @@ interface Props {
 export default function ReceitaCard({ receita }: Props) {
   return (
     <Link href={`/receitas/${receita.id}`}>
-      <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition p-4">
+      <div className="rounded-xl shadow-md hover:shadow-lg transition p-4">
         <Image
           src={receita.imagem}
           alt={receita.nome}
